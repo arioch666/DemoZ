@@ -1,24 +1,21 @@
 package div_bytes.com.demoz.ui.main
 
-import android.arch.lifecycle.ViewModelProviders
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 import android.os.Bundle
 import android.support.annotation.NonNull
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import com.google.gson.Gson
 import div_bytes.com.demoz.R
+import org.jetbrains.annotations.NotNull
 
-data class VehiclesJSON(val vehicles: List<Vehicles>)
+data class VehiclesJSON(val vehicles: List<Vehicle>)
 
-@Entity(tableName = "Vehicle")
-data class Vehicles(@PrimaryKey
-                    @NonNull val id: String, val name: String)
+@Entity(tableName = "vehicle")
+data class Vehicle(@PrimaryKey @NonNull val id: String,
+                   @NotNull val name: String)
 
 class MainFragment : Fragment() {
 
@@ -29,9 +26,6 @@ class MainFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
-
 
     }
 
