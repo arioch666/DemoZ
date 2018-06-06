@@ -25,17 +25,8 @@ class MainFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val jsonInputStream = activity?.assets?.open("fleet_status.json")
 
-        val gson = Gson()
-//
-        val inputStreamReader = jsonInputStream?.reader(Charsets.UTF_8)
 
-        val json = gson.fromJson(inputStreamReader?.readText(), VehiclesJSON::class.java)
-        Toast.makeText(activity, json?.toString(), Toast.LENGTH_SHORT).show()
-
-//        Toast.makeText(activity, "HI", Toast.LENGTH_LONG).show()
-//        Log.d("1111111111", json?.toString())
 
     }
 
