@@ -1,0 +1,120 @@
+{
+	"update_timestamp": 1521648000000,
+	"vehicles": [
+		{
+			"id": "c341bf7c-722f-4e7a-b0ce-88ca81de1a28",
+			"name": "Pamila",
+			"type": "Compact",
+			"passengers": [
+				"Bennett"
+			]
+		},
+		{
+			"id": "ff6a3a69-cf1d-49a7-a164-317c540889e2",
+			"name": "",
+			"type": "Compact",
+			"passengers": [
+				"Anissa"
+			]
+		},
+		{
+			"id": "6391903c-c05d-4417-be7a-e34c76b9f33a",
+			"name": "Isaak",
+			"type": "Sedan",
+			"passengers": [
+				"Catherina",
+				"Beatrix",
+				"Michele"
+			]
+		},
+		{
+			"id": "7ffa3cd8-d192-434b-a89c-4c6e995b1733",
+			"name": "Radhika",
+			"type": "Sedan",
+			"passengers": [
+				"Leanna",
+				"Karyna"
+			]
+		},
+		{
+			"id": "f2a3858b-5016-4797-8f9e-c2c272e447e6",
+			"name": "Yejide",			
+			"type": "Bus",
+			"passengers": [
+				"Columbine",
+				"Anissa",
+				"Pene",
+				"Harrietta",
+				"Leanna",
+				"Eve",
+				"Dora",
+				"Seymour",
+				"Sheree",
+				"Jazmyn",
+				"Elfleda",
+				"Eliot",
+				"Columbine",
+				"Anissa",
+				"Pene",
+				"Harrietta",
+				"Leanna",
+				"Eve",
+				"Dora",
+				"Seymour",
+				"Sheree",
+				"Jazmyn",
+				"Elfleda",
+				"Eliot",
+				"Columbine",
+				"Anissa",
+				"Pene",
+				"Harrietta",
+				"Leanna",
+				"Eve",
+				"Dora",
+				"Seymour",
+				"Sheree",
+				"Jazmyn",
+				"Elfleda",
+				"Eliot"
+			]
+		},
+		{
+			"id": "af2acb7d-fcae-46e0-b7f5-254368fae78a",
+			"name": "Romolo",
+			"type": "Sedan",
+			"passengers": []
+		},
+		{
+			"id": "c1b6ffe6-a3d9-4331-87dd-1140f99e50b2",
+			"name": null,
+			"type": "Compact",
+			"passengers": [
+				"Anissa"
+			]
+		},
+		{
+			"id": "81bcd7e0-5ad9-4be1-b7da-07a322dd3b3b",
+			"name": "Okeanos",
+			"type": "Van",
+			"passengers": [
+				"Harlow"
+			]
+		},
+		{
+			"id": "80071b75-23fa-427c-8905-d30783d1557c",
+			"name": "Candy",
+			"type": "Van",
+			"passengers": null
+		},
+		{
+			"id": "f5bf61cb-13a3-4a77-8936-cca957a1aab9",
+			"name": "Dian",
+			"type": "Sedan",
+			"passengers": [
+				"Orpha",
+				"Hugo"
+			]
+		}
+	]
+}
