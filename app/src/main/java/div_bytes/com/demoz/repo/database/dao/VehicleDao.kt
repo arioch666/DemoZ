@@ -1,4 +1,4 @@
-package div_bytes.com.demoz.dao
+package div_bytes.com.demoz.repo.database.dao
 
 import android.arch.lifecycle.LiveData
 import android.arch.persistence.room.Dao

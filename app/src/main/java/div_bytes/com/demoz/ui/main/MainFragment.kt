@@ -10,6 +10,10 @@ import android.view.View
 import android.view.ViewGroup
 import div_bytes.com.demoz.R
 import org.jetbrains.annotations.NotNull
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
+import kotlinx.android.synthetic.main.main_fragment.*
+
 
 data class VehiclesJSON(val vehicles: List<Vehicle>)
 
@@ -43,7 +47,9 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        val adapter = VehicleListAdapter(this)
+        vehiclesListRecyclerView.setAdapter(adapter)
+        vehiclesListRecyclerView.setLayoutManager(LinearLayoutManager(this))
 
 
     }
